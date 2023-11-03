@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Refine_Page"
+    android:background="#e9e6ca"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Your Availablity :"
+        android:textSize="15dp"
+        android:textColor="#091037"
+        android:textStyle="bold"/>
+
+        <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/defbg"
+        android:spinnerMode="dropdown"
+        android:popupBackground="#b5b894"
+        android:layout_marginBottom="20dp"
+            />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Your Status :"
+        android:textSize="15dp"
+        android:textColor="#091037"
+        android:textStyle="bold"/>
+   <EditText
+       android:layout_width="320dp"
+       android:layout_height="100dp"
+       android:text="Hi Community! I am open to new connections"
+       android:textSize="15dp"
+       android:textStyle="normal"
+       android:textColor="@color/black"
+       android:gravity="top"
+       android:background="@drawable/defbg"
+       android:padding="5dp"
+       android:layout_marginBottom="20dp"
+       />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Hyper Local Distance :"
+        android:textSize="15dp"
+        android:textColor="#091037"
+        android:textStyle="bold"/>
+
+    <SeekBar
+        android:id="@+id/Seek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:max="100"
+        android:paddingTop="25dp"
+        android:paddingBottom="15dp"
+
+        android:progress="0"
+        android:splitTrack="false" />
+
+    <TextView
+            android:layout_width="50dp"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="25dp"
+            android:background="@drawable/defbg"
+            android:id="@+id/seekbardata"
+            android:layout_marginBottom="20dp"
+            />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Purpose :"
+        android:textSize="15dp"
+        android:textColor="#091037"
+        android:textStyle="bold"/>
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:columnCount="2"
+        android:padding="10dp">
+        <Button android:text="Coffee"
+            android:id="@+id/btn1"
+            android:layout_height="40dp"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:layout_margin="2dp"
+            />
+
+        <Button android:text="Business"
+            android:id="@+id/btn2"
+            android:layout_height="40dp"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:layout_margin="2dp"
+            />
+
+        <Button android:text="Hobbies"
+            android:id="@+id/btn3"
+            android:layout_height="40dp"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:layout_margin="2dp"/>
+        <Button android:text="Friendship"
+            android:id="@+id/btn4"
+            android:layout_marginHorizontal="3dp"
+            android:layout_height="40dp"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:layout_margin="2dp"/>
+        <Button android:text="Movies"
+            android:id="@+id/btn5"
+            android:layout_height="40dp"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:layout_margin="2dp"/>
+        <Button android:text="Dinning"
+            android:id="@+id/btn6"
+            android:layout_height="40dp"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:layout_margin="2dp"/>
+        <Button android:text="Dating"
+            android:id="@+id/btn7"
+            android:layout_height="40dp"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:layout_margin="2dp"/>
+        <Button android:text="Matrimony"
+            android:id="@+id/btn8"
+            android:layout_height="40dp"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:layout_margin="2dp"/>
+    </GridLayout>
+    <Button
+        android:id="@+id/Savebtn"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Save and Explore"
+        android:layout_gravity="center_horizontal"
+        android:background="#596334"/>
+
+</LinearLayout>
